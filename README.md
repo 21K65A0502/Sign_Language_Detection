@@ -1,77 +1,83 @@
-Sign Language Detection System
-Project Overview
+Sign Language Detection System 🤟
 
-The Sign Language Detection System bridges the communication gap between deaf or hearing-impaired individuals and the wider community. The system uses computer vision and deep learning techniques to recognize hand gestures in real-time and convert them into readable text or speech.
 
-Features
 
-Real-time hand gesture detection.
 
-Converts recognized gestures into text or speech.
 
-Supports multiple sign language alphabets (e.g., ASL, ISL).
 
-User-friendly interface for easy interaction.
+📌 Project Overview
 
-Technologies Used
+The Sign Language Detection System is designed to bridge the communication gap for deaf and hearing-impaired individuals. Using computer vision and deep learning, the system recognizes hand gestures in real-time and converts them into text or speech, enabling seamless communication.
+
+✨ Features
+
+Real-time hand gesture recognition.
+
+Converts gestures into text or speech.
+
+Supports multiple sign language alphabets (ASL, ISL, etc.).
+
+User-friendly interface with live camera feed.
+
+🛠 Technologies Used
 
 Programming Language: Python
 
-Libraries/Frameworks: OpenCV, TensorFlow/Keras or PyTorch
+Libraries/Frameworks: OpenCV, TensorFlow/Keras, PyTorch (optional)
 
-Tools: Camera for gesture capture, GUI using Tkinter (optional)
+GUI Tools: Tkinter (optional)
 
-Machine Learning Models: CNNs / LSTMs for gesture recognition
+Models: Convolutional Neural Networks (CNNs), LSTMs for gesture recognition
 
-Installation
+📥 Installation
 
 Clone the repository:
 
 git clone <repository-link>
 
 
-Navigate to the project directory:
+Navigate to the project folder:
 
 cd Sign-Language-Detection
 
 
-Install required dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run the main program:
+Run the program:
 
 python main.py
 
-Usage
+🎯 Usage
 
-Ensure your camera is connected and accessible.
+Connect your camera.
 
 Launch the program.
 
 Perform hand gestures in front of the camera.
 
-The system will detect and display the corresponding text or speech in real-time.
+The system detects and displays the corresponding text or speech in real-time.
 
-Dataset
+📂 Dataset
 
-The system can be trained on datasets containing images or videos of hand gestures.
+Supports public datasets like ASL Alphabet Dataset.
 
-Public datasets like ASL Alphabet Dataset or custom datasets can be used for training.
+Custom datasets of hand gestures can also be used for training the model.
 
-Future Enhancements
+🚀 Future Enhancements
 
-Expand support for full sentences and complex phrases.
+Recognize full sentences and complex gestures.
 
-Add multi-language sign recognition.
+Multi-language sign support.
 
-Deploy as a mobile or web application for broader accessibility.
+Deploy as a mobile or web app for broader accessibility.
 
-Impact
+💡 Impact
 
-This project improves communication accessibility for hearing-impaired individuals and can be integrated into educational tools, public services, or mobile applications.
+This system promotes inclusive communication for hearing-impaired individuals and can be used in educational tools, public services, and mobile applications.
 
-License
+📄 License
 
 This project is licensed under the MIT License.
